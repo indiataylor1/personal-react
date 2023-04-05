@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.css"; /*is this the right link?*/
 import { NavBar } from "./components/NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
