@@ -1,8 +1,8 @@
 import meter1 from "../assets/images/meter-1.svg";
 import meter2 from "../assets/images/meter-2.svg";
 import meter3 from "../assets/images/meter-3.svg";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+// import Carousel from "react-multi-carousel";
+// import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/images/arrow1.svg";
 import arrow2 from "../assets/images/arrow2.svg";
 import colorSharp from "../assets/images/color-sharp.png";
@@ -36,11 +36,37 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+                Front End Development, HTML, CSS, JavaScript.
+                <br></br> I am in the process of learning Back-End development.
               </p>
-              <Carousel
+              <div className="row skill-content">
+                <div className="col-sm-6 col-md-3 col-lg-3">
+                  <div className="item">
+                    <img src={meter1} alt="Image" />
+                    <h5>Web Design</h5>
+                  </div>
+                </div>
+                <div className="col-sm-6 col-md-3 col-lg-3">
+                  <div className="item">
+                    <img src={meter2} alt="Image" />
+                    <h5>Brand Identity</h5>
+                  </div>
+                </div>
+                <div className="col-sm-6 col-md-3 col-lg-3">
+                  <div className="item">
+                    <img src={meter3} alt="Image" />
+                    <h5>HTML & CSS</h5>
+                  </div>
+                </div>
+                <div className="col-sm-6 col-md-3 col-lg-3">
+                  <div className="item">
+                    <img src={meter1} alt="Image" />
+                    <h5>JavaScript</h5>
+                  </div>
+                </div>
+              </div>
+
+              {/* <Carousel
                 responsive={responsive}
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
@@ -61,7 +87,7 @@ export const Skills = () => {
                   <img src={meter1} alt="Image" />
                   <h5>Web Development</h5>
                 </div>
-              </Carousel>
+              /*</Carousel> */}
             </div>
           </div>
         </div>
