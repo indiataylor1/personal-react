@@ -12,10 +12,9 @@
 
 This is my Personal Portfolio powered by React. This application includes a contact form, banner, project list and skills meters.
 
-### Screenshot
+### Link to Deployed App
 
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
-
+Link to live deployed app >>> https://indiataylor1.github.io/personal-react/
 ## Technologies
 
 ---
